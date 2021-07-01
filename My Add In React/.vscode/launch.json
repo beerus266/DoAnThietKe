@@ -106,6 +106,15 @@
       "port": 9222,
       "webRoot": "${workspaceFolder}",
       "preLaunchTask": "Debug: Web"
+    },
+    {
+            "name": "Debug Office Add-in (Edge Chromium)",
+            "type": "edge",
+            "request": "attach",
+            "useWebView": "advanced",
+            "port": 9229,
+            "timeout": 600000,
+            "webRoot": "${workspaceRoot}",
     }
   ]
 }
